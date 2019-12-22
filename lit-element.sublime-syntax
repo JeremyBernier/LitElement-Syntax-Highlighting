@@ -2,7 +2,7 @@
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
 name: Lit-Element
-file_extensions: [js, jsx, babel, es6]
+file_extensions: [js, jsx, babel, es6, lsc]
 first_line_match: ^#!\s*/.*\b(node|js)$\n?
 scope: source.js
 
