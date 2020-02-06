@@ -2,6 +2,8 @@
 
 This enables syntax highlighting when using the [lit-element](https://lit-element.polymer-project.org/) and [lit-html](https://lit-html.polymer-project.org/) libraries. It also includes Babel (eg. for decorators).
 
+### NOTE: This package triggers a bug with Sublime Text that will pop up an error message on window load: "Apparent recursion within a with_prototype action: 25000 context sanity limit hit" (https://github.com/sublimehq/sublime_text/issues/2444). It's a known bug with Sublime Text. Yes it's annoying as hell, and I hope that it gets fixed (I've actually moved on to VS Code partially because of this). Anybody who solves it is welcome to submit a PR!
+
 ## Installation
 
 1. Install [Package Control](https://packagecontrol.io/) for Sublime Text 3
