@@ -1054,7 +1054,7 @@ contexts:
 
 
   lit-html:
-    - match: 'html`'
+    - match: \bhtml\b\s?`
       scope: punctuation.section.flowtype.begin
       push: lit-html-body
 
